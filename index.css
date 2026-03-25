@@ -1,0 +1,47 @@
+.mann{
+width:300px;
+transition: all 0.2s ease;
+}
+.mann:hover {
+  transform: translateY(-30px);
+}
+
+.frau{  
+    width:300px;
+    transition: all 0.2s ease;
+}
+
+.frau:hover {
+    transform: translateY(-20px);
+}
+
+
+
+#kopf{
+
+color:rgb(132, 81, 10);
+font-size: 100px;
+text-align:center;
+font-family: myfont;
+line-height: 1;
+    
+}
+
+#affinity{
+    color:rgb(132, 81, 10);
+    font-family: myfont;
+    font-size: 50px;
+}
+
+body{background-color: rgb(255, 248, 240);}
+
+
+#container{
+
+justify-content: center;
+font-family: myfont;
+}
+@font-face{
+    font-family: myfont;
+    src: url(./fonts/Quicksand-VariableFont_wght.ttf)
+}

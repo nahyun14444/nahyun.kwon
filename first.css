@@ -1,0 +1,18 @@
+body{background-color: rgb(255, 248, 240);}
+
+#matchamann {
+
+width: 40vw;
+display: block;
+margin: 0 auto;
+margin-top: 10vw;
+
+}
+#porridge {
+    width: 40vw;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10vw;
+    margin-bottom: 10vw;;
+
+}
