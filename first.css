@@ -12,7 +12,17 @@ margin-top: 10vw;
     width: 40vw;
     display: block;
     margin: 0 auto;
-    margin-top: 10vw;
+    margin-top: 100px;
     margin-bottom: 10vw;;
 
+}
+
+#text{
+    color:rgb(132, 81, 10);
+font-size: 50px;
+text-align:center;
+font-family: myfont;
+line-height: 1;
+margin-top: 100px;
+    
 }

@@ -1,5 +1,7 @@
 .mann{
-width:300px;
+width:500px;
+margin-right: 20px;
+
 transition: all 0.2s ease;
 }
 .mann:hover {
@@ -7,11 +9,22 @@ transition: all 0.2s ease;
 }
 
 .frau{  
-    width:300px;
+    width:500px;
+    margin-left: 10px;
+    
     transition: all 0.2s ease;
 }
 
 .frau:hover {
+    transform: translateY(-20px);
+}
+.opa{
+    width: 500px;
+    
+    transition: all 0.2s ease;
+}
+
+.opa:hover{
     transform: translateY(-20px);
 }
 
@@ -33,15 +46,22 @@ line-height: 1;
     font-size: 50px;
 }
 
-body{background-color: rgb(255, 248, 240);}
-
-
-#container{
-
-justify-content: center;
-font-family: myfont;
+body{
+    
+    background-color: rgb(255, 248, 240);
 }
+
+
 @font-face{
     font-family: myfont;
     src: url(./fonts/Quicksand-VariableFont_wght.ttf)
+}
+
+
+#bottom{
+    color:rgb(132, 81, 10);
+font-size: 50px;
+text-align:center;
+font-family: myfont;
+line-height: 1;
 }
