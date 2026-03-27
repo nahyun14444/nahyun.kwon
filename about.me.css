@@ -6,15 +6,16 @@ body{
 
 #me{
 
-    width: 400px;
+    width: 30vw;
     
 }
 
 #text{
     color:rgb(132, 81, 10);
-    font-size: 20px;
+    font-size: 1vw;
     font-family: myfont;
     line-height: 2;
+    margin-right: 2vw;
     
 }
 
@@ -26,7 +27,7 @@ body{
 .container {
   display: flex;
   align-items: center; 
-  gap: 30px;
+  gap: 7vw;
   margin-top: 20vw;
   margin-left: 10vw;
 
