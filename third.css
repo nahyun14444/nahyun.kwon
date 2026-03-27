@@ -5,6 +5,65 @@ body{
 
 
 
-.bilder{
-    width: 30vw;
+#cafe{
+    width: 27vw;
+    margin-top: 10vw;
+    margin-left:5vw ;
+    transition: all 0.2s ease;
+    
 }
+
+
+#cafe:hover{
+    transform: translateY(-20px);
+}
+
+
+#diner{
+
+    
+    width:22vw ;
+    margin-top: 5vw;
+    margin-right: 5vw;
+    transition: all 0.2s ease;
+}
+
+#diner:hover{
+
+    transform: translateY(-20px);
+}
+
+
+#pferde{
+
+    width: 23vw ;
+    margin-top: 5vw;
+    transition: all 0.2s ease;
+}
+
+#pferde:hover{
+
+    transform: translateY(-20px);
+}
+
+
+#container1{
+    display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%;  
+}
+
+#head{
+    color:rgb(132, 81, 10);
+font-size: 50px;
+text-align:center;
+font-family: myfont;
+line-height: 1;
+
+}
+@font-face{
+    font-family: myfont;
+    src: url(./fonts/Quicksand-VariableFont_wght.ttf)
+}
+
